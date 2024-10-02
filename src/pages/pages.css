@@ -1,0 +1,53 @@
+.user-detail{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+#bg-img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    z-index: -999;
+}
+.user-data{
+    max-width: 500px;
+    width: 100%;
+    background-color:hsl(0, 0%, 100%);
+    padding: 10px;
+    border-radius: 10px;
+}
+.user-bio{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0px;
+}
+.user-bio img{
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #ffff;
+    box-shadow:1px 1px 1px 1px rgba(0, 0, 0, 0.541);
+    
+}
+.user-data h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.user-data p{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.603);
+}
+#desc{
+    font-size: medium;
+    color: rgba(0, 0, 0, 0.884);
+    line-height: 20px;
+    text-align: left;
+    padding-bottom: 30px;
+}
